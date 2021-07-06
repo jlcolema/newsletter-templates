@@ -95,18 +95,13 @@ gulp.task('watch', function() {
 
 		proxy: "https://newsletters.local",
 		host: "newsletters.local",
-		open: "external",
-		// browser: 'microsoft edge'
+		open: "external"
 
 	});
 
-	gulp.watch(basePaths.dev + 'scss/**/*.scss', gulp.series('sass'));
-
-	// gulp.watch(basePaths.dev + 'js/*.js', gulp.series('js'));
-
 	gulp.watch(basePaths.dev + 'img/**/*', gulp.series('img'));
 
-	// gulp.watch(basePaths.dev + 'fonts/**/*', gulp.series('fonts'));
+	gulp.watch(basePaths.dev + 'fonts/**/*', gulp.series('fonts'));
 
 	gulp.watch(basePaths.dist + '**/*.html').on('change', browsersync.reload);
 
