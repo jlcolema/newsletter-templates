@@ -37,7 +37,15 @@ var basePaths = {
 gulp.task('inlinecss', function() {
 
 	return gulp.src(basePaths.new + '*.html')
-		.pipeline(inlinecss())
+		.pipeline(inlinecss({
+			applyStyleTags: true,
+			applyLinkTags: true,
+			removeStyleTags: true,
+			removeLinkTags: true,
+			preserveMediaQueries: true,
+			applyWidthAttributes: true,
+			applyTableAttributes: true
+		}))
 		.pipe(gulp.dest(basePaths.dist));
 
 });
