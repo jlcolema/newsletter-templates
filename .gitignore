@@ -1,4 +1,11 @@
-# General
+# Ignore workspace configurations.
+
+*.code-workspace
+
+# Ignore node dependency directories.
+
+node_modules/
+
+# Ignore OS generated files.
 
 .DS_Store
-*.code-workspace
