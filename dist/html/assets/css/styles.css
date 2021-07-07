@@ -275,16 +275,39 @@ form {}
 /* Header
 --------------------------------------------------*/
 
-.header {}
+.header {
 
-	.header__title {}
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1em 0 0 0;
 
-	.header__description {}
+}
+
+	.header__title {
+
+		margin-bottom: 0;
+		text-align: center;
+
+	}
+
+	.header__description {
+
+		margin-top: 0;
+		text-align: center;
+
+	}
 
 /* Main
 --------------------------------------------------*/
 
-.main {}
+.main {
+
+	width: 100%;
+	max-width: 800px;
+	margin: 2em auto 0 auto;
+
+}
 
 	.templates {}
 
