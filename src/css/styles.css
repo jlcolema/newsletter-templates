@@ -1,0 +1,56 @@
+/* Document Information
+========================================*/
+
+/*
+
+	-- Document: Baseline Stylesheet for Email Newsletter Templates
+	-- Version:  1.0.0
+	-- Client:   Crosspoint Church
+	-- Authors:  Sandy Pearson, Joshua Coleman
+
+*/
+
+/* Notes
+----------------------------------------*/
+
+/*
+
+	1. Crosspoint Academy has a section with a 2-column layout.
+
+*/
+
+/* Title
+========================================*/
+
+@charset 'utf-8';
+
+/* 01. Configuration, Utilities, Helpers
+----------------------------------------*/
+
+@import 'common/custom-properties.css';
+@import 'common/reset.css';
+@import 'common/utilities.css';
+@import 'common/fonts.css';
+
+/* 02. Baseline
+----------------------------------------*/
+
+@import 'common/baseline.css';
+
+/* 03. Sections
+----------------------------------------*/
+
+@import 'sections/header.css';
+@import 'sections/main.css';
+@import 'sections/footer.css';
+@import 'sections/legal.css';
+
+/* 03. Client-Specific
+----------------------------------------*/
+
+@import 'common/client-specific.css';
+
+/* 03. Media Queries
+----------------------------------------*/
+
+@import 'common/media-queries.css';
