@@ -91,17 +91,17 @@ For finer control of your HTML, try nesting `<table>` elements when building ema
 
 There's a good reason; you must provide a table to serve as a redundant `<body>` element, as some email clients strip out the element when they render the email.
 
-**Example:**
-
-```html
-<table id="body" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
-```
-
 ### HTML Attributes
 
 While much of the styling standards-based HTML is done via CSS, there are time where styling via HTML attributes works better for email. Because some major email clients are running on antiquated rendering engines, they tend to better understand attributes.
 
 The attributes below, `border`, `cellpadding`, `cellspacing`, `width`, `align`, and `valign` are supported in all email clients, making them ideal for setting up some baseline styling before you get into CSS.
+
+**Example:**
+
+```html
+<table id="body" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+```
 
 ### Code Responsively
 
