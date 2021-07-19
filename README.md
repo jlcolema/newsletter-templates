@@ -33,6 +33,12 @@ When iOS detects a phone number, address, or calendar date, it oh-so-helpfully s
 
 First, for the phone number. In the `<head>` of your email, add this iOS-specific `<meta>` tag.
 
+**Example:**
+
+```html
+<meta name="format-detection" content="telephone=no" />
+```
+
 Using that, iOS will no longer auto-detect and style phone numbers (Apple also lists its other tags here). You should, however, provide your own way to call from an email. You can do that by wrapping a phone number in a line and setting the href attribute with a tel value.
 
 **Example:**
@@ -50,9 +56,3 @@ Visit Email Company at <a href="#" style="color: #000000; text-decoration: none;
 ```
 
 Be aware that, regardless of the fact that you changed the link colors, the iOS functionality isn’t disabled on any of these items. An errant tap of a date or address will still open up calendar and map applications, so it’s a good idea to make these links a little different than your other standard links, so folks avoid confusion or frustration.
-
-**Example:**
-
-```html
-<meta name="format-detection" content="telephone=no" />
-```
