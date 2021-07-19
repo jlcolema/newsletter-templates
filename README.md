@@ -9,6 +9,8 @@ Updated versions of email newsletter templates for [Crosspoint Church](https://c
 
 ## Notes
 
+*Many of the notes mentioned below are credited to [Mailchimp](https://mailchimp.com) and their [Email Design Reference](https://templates.mailchimp.com).*
+
 ### HTML Structure
 
 This can be used to quickly jump to sections within the HTML structure.
@@ -81,4 +83,40 @@ After the import is complete, regardless of the method you choose, you can set t
 
 ```css
 font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+```
+
+### Tables Within Tables
+
+For finer control of your HTML, try nesting `<table>` elements when building emails. At its simplest, an email should be at least two tables deep.
+
+There's a good reason; you must provide a table to serve as a redundant `<body>` element, as some email clients strip out the element when they render the email.
+
+**Example:**
+
+```html
+<table id="body" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+```
+
+### HTML Attributes
+
+While much of the styling standards-based HTML is done via CSS, there are time where styling via HTML attributes works better for email. Because some major email clients are running on antiquated rendering engines, they tend to better understand attributes.
+
+The attributes below, `border`, `cellpadding`, `cellspacing`, `width`, `align`, and `valign` are supported in all email clients, making them ideal for setting up some baseline styling before you get into CSS.
+
+### Code Responsively
+
+Just because you're forced to write code better suited for the web of 1998 doesn't mean it's all bad. As archaic as using tables to build an email may be, new techniques like responsive web design are finding their way into HTML email. As you code, strive to make every email reponsive; you can do this by setting only one fixed width in the email.
+
+By adding other tables, `header`, `body`, `footer`, and `legal` and setting their widths to 100%, you only need to manipulate the `email` table. These independent tables make it simpler to create an email that works well on small displays.
+
+#### Not Too Wide
+
+Current best practies dictate that emails should be around 600px in width, and we've found that 800px is a workable upper limit. The second table - `<table id="email">`, in this case, is where you can set that width.
+
+Many email clients now feature 'preview' windows where the email is rendered without the need for the user to truly 'open' it. Unfortunately, those preview windows tend to be quite small. This 600-800 pixel range is one that tends to fit nicely within these tiny windows.
+
+**Example:**
+
+```html
+<table id="email" border="0" cellpadding="20" cellspacing="0" width="600">
 ```
