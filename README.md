@@ -1,11 +1,11 @@
 # Newsletter Templates
 
-Updated versions of email newsletter templates for Crosspoint Church.
+Updated versions of email newsletter templates for [Crosspoint Church](https://crosspoint.church).
 
 ## Overview
 
-1. The `original` directory contains the original templates pulled from Shelby Arena.
-2. The `new` directory contains updated versions of each template.
+1. The `original` directory contains the [original templates](dist/html/templates/original/) pulled from Shelby Arena.
+2. The `new` directory contains [new versions of each template](dist/html/templates/new/).
 
 ## Notes
 
