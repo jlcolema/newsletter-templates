@@ -47,4 +47,8 @@
 	--horizontal-rule-thin: 1px;
 	--horizontal-rule-thick: 4px;
 
+	/* Fonts */
+
+	--font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
