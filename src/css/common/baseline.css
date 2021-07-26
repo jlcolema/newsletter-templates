@@ -9,7 +9,21 @@
 
 */
 
-/* 5.1. Block Elements
+/* 5.1. Title
+----------------------------------------*/
+
+html {}
+
+*,
+*:before,
+*:after {}
+
+body,
+#body {
+	font-family: var(--font-family);
+}
+
+/* 5.2. Block Elements
 ----------------------------------------*/
 
 h1, .h1,
@@ -31,5 +45,104 @@ h5, .h5 {}
 
 h6, .h6 {}
 
-/* 5.2. Inline Elements
+p {}
+
+ol {}
+
+	ol li {}
+
+ul {}
+
+	ol li {}
+
+dl {}
+
+	dt {}
+
+	dd {}
+
+table {}
+
+	thead {}
+
+	tbody {}
+
+	tfoot {}
+
+		tr {}
+
+			th {}
+
+			td {}
+
+pre,
+.pre {}
+
+article,
+.article {}
+
+caption,
+.caption {}
+
+figure,
+.figure {}
+
+	figcaption,
+	.figcaption {}
+
+blockquote,
+.blockquote {}
+
+hr,
+.hr {}
+
+div {}
+
+/* 5.3. Inline Elements
 ----------------------------------------*/
+
+em, i,
+.italic { font-style: italic; }
+
+b,
+strong,
+.bold { font-weight: bold; }
+
+a,
+.link {}
+
+	a:link,
+	.link:link {}
+
+	a:hover,
+	.link:hover {}
+
+	a:focus,
+	.link:focus {}
+
+abbr,
+acronym {}
+
+	abbr[title],
+	acronym[title] {}
+
+img,
+.img {}
+
+svg,
+.svg {}
+
+iframe,
+.iframe {}
+
+code {}
+
+sub {}
+
+sup {}
+
+ins {}
+
+mark {}
+
+span {}
