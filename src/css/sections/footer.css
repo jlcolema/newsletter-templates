@@ -9,11 +9,17 @@
 
 */
 
-#footer {}
+#footer {
+	color: var(--color-white);
+	background-color: var(--color-blue);
+}
 
 	#footer tr {}
 
-		#footer td {}
+		#footer td,
+		.footer__content {}
+
+			/* Content */
 
 			.h-card {}
 
@@ -41,8 +47,12 @@
 
 						.u-email__label {}
 
-						.link {}
+						.p-tel__link {
+							color: var(--color-white);
+							text-decoration: none;
+						}
 
-						.p-tel__link {}
-
-						.u-email__link {}
+						.u-email__link {
+							color: var(--color-white);
+							text-decoration: none;
+						}

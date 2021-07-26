@@ -8,3 +8,12 @@
 	1. Crosspoint Academy has a section with a 2-column layout.
 
 */
+
+#main {}
+
+	#main tr {}
+
+		#main td,
+		.main__content {}
+
+			/* Content */

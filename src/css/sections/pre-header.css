@@ -10,3 +10,10 @@
 */
 
 #pre-header {}
+
+	#pre-header tr {}
+
+		#pre-header td,
+		.pre-header__content {}
+
+			/* Content */

@@ -8,3 +8,16 @@
 	Notes...
 
 */
+
+#legal {}
+
+	#legal tr {}
+
+		#legal td,
+		.legal__content {}
+
+			/* Content */
+
+			.unsubscribe {}
+
+				.unsubscribe__link {}
