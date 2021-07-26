@@ -10,15 +10,6 @@
 
 */
 
-/* Notes
-----------------------------------------*/
-
-/*
-
-	1. Crosspoint Academy has a section with a 2-column layout.
-
-*/
-
 /* Title
 ========================================*/
 
@@ -40,6 +31,7 @@
 /* 03. Sections
 ----------------------------------------*/
 
+@import 'sections/pre-header.css';
 @import 'sections/header.css';
 @import 'sections/main.css';
 @import 'sections/footer.css';
