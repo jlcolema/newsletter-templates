@@ -8,3 +8,41 @@
 	Notes...
 
 */
+
+#footer {}
+
+	#footer tr {}
+
+		#footer td {}
+
+			.h-card {}
+
+				.p-name {}
+
+				.h-adr {}
+
+					.p-street-address {}
+
+					.p-locality {}
+
+					.p-region {}
+
+					.p-postal-code {}
+				
+				.div /* Needs title */
+
+					.p-tel {}
+
+					.u-email {}
+
+						.p-label {}
+
+						.p-tel__label {}
+
+						.u-email__label {}
+
+						.link {}
+
+						.p-tel__link {}
+
+						.u-email__link {}
