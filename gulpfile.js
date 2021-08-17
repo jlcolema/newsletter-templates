@@ -22,9 +22,9 @@ var browsersync = require('browser-sync');
 var basePaths = {
 
 	dev:	   'src/',
-	dist:	   'dist/html/',
+	dist:	   'dist/html/templates/new/',
 	new:	   'new/',
-	originals: 'originals/',
+	original: 'original/',
 	assets:	   'dist/html/assets/'
 
 };
