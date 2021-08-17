@@ -31,16 +31,34 @@
 */
 
 h2 {
-	color: #0066cc !important;
+
+	color: var(--color-blue) !important;
+
 }
 
-h3 {}
+h3 {
 
-h4 {}
+	color: var(--color-blue) !important;
 
-h5 {}
+}
 
-h6 {}
+h4 {
+
+	color: var(--color-blue) !important;
+
+}
+
+h5 {
+
+	color: var(--color-blue) !important;
+
+}
+
+h6 {
+
+	color: var(--color-blue) !important;
+
+}
 
 /*
 
@@ -81,13 +99,9 @@ img {
 
 /*
 
-	macOS / iOS: WebKit Text Size Adjustment
+	# macOS / iOS: WebKit Text Size Adjustment
 
 	WebKit looks for any text that happens to be sized smaller than 13px and increases it to that number, which can sometimes cause design issues in places intended for small text. Setting -webkit-text-size-adjust to none will prevent iOS platforms from resizing the text, but this method also prevents OSX applications like Safari from bumping the text size up - something that can cause issues for people who need the text size to be large. Setting -webkit-text-size-adjust to 100% seems to be the best of both worlds.
-
-*/
-
-/*
 
 	# Windows Mobile: Windows Mobile Text Size Adjustment
 

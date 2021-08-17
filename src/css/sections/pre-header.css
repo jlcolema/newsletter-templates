@@ -9,7 +9,11 @@
 
 */
 
-#pre-header {}
+#pre-header {
+
+	display: none !important;
+
+}
 
 	#pre-header tr {}
 

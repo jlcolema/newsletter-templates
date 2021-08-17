@@ -23,6 +23,13 @@ body,
 	font-family: var(--font-family);
 }
 
+#email {
+
+	width: 100% !important;
+	max-width: 600px !important;
+
+}
+
 /* 5.2. Block Elements
 ----------------------------------------*/
 
@@ -33,19 +40,64 @@ h4, .h4,
 h5, .h5,
 h6, .h6 {}
 
-h1, .h1 {}
+h1, .h1 {
 
-h2, .h2 {}
+	margin: 0;
+	margin-bottom: 19px;
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: bold;
+	color: var(--color-blue);
 
-h3, .h3 {}
+}
 
-h4, .h4 {}
+h2, .h2 {
 
-h5, .h5 {}
+	margin: 0;
+	margin-bottom: 16px;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--color-blue);
 
-h6, .h6 {}
+}
 
-p {}
+h3, .h3 {
+
+	margin: 0;
+	color: var(--color-blue);
+
+}
+
+h4, .h4 {
+
+	margin: 0;
+	color: var(--color-blue);
+
+}
+
+h5, .h5 {
+
+	margin: 0;
+	color: var(--color-blue);
+
+}
+
+h6, .h6 {
+
+	margin: 0;
+	color: var(--color-blue);
+
+}
+
+p, .p {
+
+	margin: 0;
+	margin-bottom: 16px;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--color-gray);
+
+}
 
 ol {}
 
@@ -109,7 +161,11 @@ strong,
 .bold { font-weight: bold; }
 
 a,
-.link {}
+.link {
+
+	color: var(--color-blue);
+
+}
 
 	a:link,
 	.link:link {}

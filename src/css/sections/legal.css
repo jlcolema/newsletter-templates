@@ -14,10 +14,26 @@
 	#legal tr {}
 
 		#legal td,
-		.legal__content {}
+		.legal__content {
+
+			padding-left: 24px;
+			padding-top: 24px;
+			padding-right: 24px;
+			padding-bottom: 16px;
+
+		}
 
 			/* Content */
 
-			.unsubscribe {}
+			.unsubscribe {
 
-				.unsubscribe__link {}
+				font-size: 14px;
+
+			}
+
+				.unsubscribe__link {
+
+					color: var(--color-gray-30);
+					text-decoration: none;
+
+				}

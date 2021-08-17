@@ -89,3 +89,19 @@
 .image-remove-space {
 	display: block;
 }
+
+/* Notes... */
+
+.all-caps {
+
+	text-transform: uppercase;
+
+}
+
+/* Notes... */
+
+.p--last {
+
+	margin: 0;
+
+}

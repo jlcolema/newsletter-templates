@@ -17,15 +17,31 @@
 	#footer tr {}
 
 		#footer td,
-		.footer__content {}
+		.footer__content {
+
+			padding-left: 24px;
+			padding-top: 40px;
+			padding-right: 24px;
+			padding-bottom: 40px;
+
+		}
 
 			/* Content */
 
 			.h-card {}
 
-				.p-name {}
+				.p-name {
 
-				.h-adr {}
+					color: var(--color-white);
+
+				}
+
+				.h-adr {
+
+					margin: 0;
+					margin-bottom: 12px;
+
+				}
 
 					.p-street-address {}
 
