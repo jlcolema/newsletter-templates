@@ -10,8 +10,8 @@
 */
 
 #footer {
-	color: #ffffff;
-	background-color: #0078ae;
+	color: var(--color-white);
+	background-color: var(--color-blue);
 }
 
 	#footer tr {}
@@ -32,7 +32,7 @@
 
 				.p-name {
 
-					color: #ffffff;
+					color: var(--color-white);
 
 				}
 
@@ -64,11 +64,11 @@
 						.u-email__label {}
 
 						.p-tel__link {
-							color: #ffffff;
+							color: var(--color-white);
 							text-decoration: none;
 						}
 
 						.u-email__link {
-							color: #ffffff;
+							color: var(--color-white);
 							text-decoration: none;
 						}

@@ -33,7 +33,7 @@
 
 				.unsubscribe__link {
 
-					color: #b4b4b4;
+					color: var(--color-gray-30);
 					text-decoration: none;
 
 				}

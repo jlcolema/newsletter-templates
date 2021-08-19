@@ -20,7 +20,7 @@ html {}
 
 body,
 #body {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: var(--font-family);
 }
 
 #email {
@@ -47,7 +47,7 @@ h1, .h1 {
 	font-size: 18px;
 	line-height: 23px;
 	font-weight: bold;
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 
@@ -57,35 +57,35 @@ h2, .h2 {
 	margin-bottom: 16px;
 	font-size: 16px;
 	line-height: 18px;
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 
 h3, .h3 {
 
 	margin: 0;
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 
 h4, .h4 {
 
 	margin: 0;
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 
 h5, .h5 {
 
 	margin: 0;
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 
 h6, .h6 {
 
 	margin: 0;
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 
@@ -95,7 +95,7 @@ p, .p {
 	margin-bottom: 16px;
 	font-size: 16px;
 	line-height: 18px;
-	color: #3f3f3f;
+	color: var(--color-gray);
 
 }
 
@@ -163,7 +163,7 @@ strong,
 a,
 .link {
 
-	color: #0078ae;
+	color: var(--color-blue);
 
 }
 

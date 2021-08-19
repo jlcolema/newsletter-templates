@@ -32,31 +32,31 @@
 
 h2 {
 
-	color: #0078ae !important;
+	color: var(--color-blue) !important;
 
 }
 
 h3 {
 
-	color: #0078ae !important;
+	color: var(--color-blue) !important;
 
 }
 
 h4 {
 
-	color: #0078ae !important;
+	color: var(--color-blue) !important;
 
 }
 
 h5 {
 
-	color: #0078ae !important;
+	color: var(--color-blue) !important;
 
 }
 
 h6 {
 
-	color: #0078ae !important;
+	color: var(--color-blue) !important;
 
 }
 

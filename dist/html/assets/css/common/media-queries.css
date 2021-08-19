@@ -1,0 +1,18 @@
+/* 8. MEDIA QUERIES
+========================================*/
+
+/*
+
+	# Section Notes
+
+	Notes...
+
+*/
+
+/* For screen sizes 480px and below */
+
+@media only screen and (max-width: 480px) {}
+
+/* For screen sizes 481px up to 600px */
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {}
